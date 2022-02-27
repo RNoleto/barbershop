@@ -4,58 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--  STYLES -->
+    <!--  Styles -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- FONTS -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- ICONS -->
-    <link rel="icon" href="img/favicon.png" />
     <title>BarberShop</title>
   </head>
-
   <body>
-    <!-- TOPO -->
+    <!-- Menu -->
     <header id="header">
       <nav class="container">
-        <a class="logo" href="#">Barber<span>Shop</span>.</a>
-        <div class="menu">...</div>
+        <!-- Titulo -->
+        <a class="logo" href="#">BarberShop</a>
+        <!-- Fim do Titulo -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#">Inicio</a></li>
+            <li><a class="title" href="#">Galeria</a></li>
+            <li><a class="title" href="#">Serviços</a></li>
+            <li><a class="title" href="#">Depoimentos</a></li>
+            <li><a class="title" href="#">Contato</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
-    <!-- FIM DO TOPO -->
-    <section class="section" id="destaque">
-      <div class="container grid">
-        <div class="image">
-          <img
-            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyYmVyJTIwc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            alt="imagem 1"
-          />
-        </div>
-        <div class="text">
-          <h1 class="letreiro">Animação estilo o potfolio</h1>         
-      </div>
-    </section>
+    <!-- Fim do Menu -->
     <main>
-      <section class="section" id="home">
-        <div class="container grid">
-          <h1 class="text">Titulo com texto maior</h1>
-            <p>Texto menor</p>
-            <a class="button" href="#">Agendar um horario</a>
+      <div class="container">
+        <section class="section" id="destaque">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyYmVyJTIwc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt="Imagem de destaque"
+            />
           </div>
-        </div>
-      </section>
-
-      <div class="divider-1"></div>
-      <section class="section produtos">
-        <h1>Area de produtos</h1>
-        <p>texto menor</p>
-      </section>
+          <div class="text">
+            <h2 class="title">Animação de Destaque</h2>
+          </div>
+        </section>
+        <!-- Galeria de fotos -->
+        <section class="section" id="container-galeria">
+          <div class="fotos">
+            <img
+              src="https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFyYmVyc2hvcCUyMGN1dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt="foto1"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1596362601603-b74f6ef166e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFyYmVyc2hvcCUyMGN1dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt="foto2"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1596362601603-b74f6ef166e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFyYmVyc2hvcCUyMGN1dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt="foto2"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1596362601603-b74f6ef166e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFyYmVyc2hvcCUyMGN1dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt="foto2"
+            />
+          </div>
+        </section>
+        <!-- Fim da Galeria de fotos -->
+        <!-- Serviços -->
+        <section class="section" id="container-servicos">
+          <div class="servicos-1">
+            <img
+              src="https://images.unsplash.com/photo-1534297635766-a262cdcb8ee4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyYmVyc2hvcCUyMGN1dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt="Corte Infantil"
+              class="imagem"
+            />
+            <div class="descricao">
+              <h1>Corte Infantil</h1>
+              <p>
+                ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                repudiandae beatae similique exercitationem reprehenderit sunt
+                blanditiis cupiditate iure ipsa. Facere ipsam quos dignissimos
+                nihil! Esse cum error fugiat omnis dolorum.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Fim dos Serviços -->
+        <!-- Depoimentos -->
+        <section class="section" id="depoimentos">Área de depoimentos</section>
+        <!-- Fim dos Depoimentos -->
+        <!-- Rodapé -->
+        <section class="section" id="footer">Área do rodapé</section>
+        <!-- Fim do Rodapé -->
+      </div>
     </main>
   </body>
 </html>
