@@ -53,7 +53,7 @@ html {
 }
 
 body {
-  background: blueviolet;
+  background: #5e5e5e;
 }
 .title {
   font: 700 var(--title-font-size) var(--title-font);
@@ -99,6 +99,8 @@ nav {
   justify-content: space-between;
   width: 100%;
 }
+
+/*============ DEPOIMENTOS ============ */
 
 /*============ MEDIA QUERIES ============ */
 /* extra large devices: 1200 > */
@@ -206,6 +208,30 @@ nav {
     padding: 4rem;
     background: var(--base-color-primary);
   }
+  #depoimentos .container {
+    background-color: #946d3c;
+  }
+  #depoimentos .card {
+    display: flex;
+    align-items: center;
+  }
+
+  .card img {
+    margin: 30px 0 30px 30px;
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  #depoimentos .text {
+    margin: 0 30px;
+  }
+  .text h1 {
+    color: red;
+  }
+  .text p {
+    color: blue;
+  }
+
   /* Rodapé */
   #footer {
     background: #15080d;
